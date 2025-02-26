@@ -7,13 +7,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "calculate": "node script.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.7.9"
+    "axios": "^1.7.9",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
